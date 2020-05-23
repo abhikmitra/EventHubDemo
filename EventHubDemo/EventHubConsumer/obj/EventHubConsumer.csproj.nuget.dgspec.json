@@ -4,6 +4,274 @@
     "C:\\Users\\abmitra\\source\\repos\\EventHubDemo\\EventHubDemo\\EventHubConsumer\\EventHubConsumer.csproj": {}
   },
   "projects": {
+    "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs.Processor\\src\\Microsoft.Azure.EventHubs.Processor.csproj": {
+      "version": "4.2.1-dev.20200523.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs.Processor\\src\\Microsoft.Azure.EventHubs.Processor.csproj",
+        "projectName": "Microsoft.Azure.EventHubs.Processor",
+        "projectPath": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs.Processor\\src\\Microsoft.Azure.EventHubs.Processor.csproj",
+        "packagesPath": "C:\\Users\\abmitra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\artifacts\\obj\\Microsoft.Azure.EventHubs.Processor\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abmitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.4",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/Official/nuget/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.4": {
+            "projectReferences": {
+              "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj": {
+                "projectPath": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj": {
+                "projectPath": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU5105"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.4": {
+          "dependencies": {
+            "Microsoft.Azure.KeyVault.Core": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Azure.KeyVault.Core": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj": {
+      "version": "4.2.1-dev.20200523.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj",
+        "projectName": "Microsoft.Azure.EventHubs",
+        "projectPath": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj",
+        "packagesPath": "C:\\Users\\abmitra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\artifacts\\obj\\Microsoft.Azure.EventHubs\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abmitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.4",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/DefaultCollection/_apis/packaging/Official/nuget/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.4": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU5105"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.4": {
+          "dependencies": {
+            "Microsoft.Azure.Amqp": {
+              "target": "Package",
+              "version": "[2.4.2, 3.0.0)"
+            },
+            "Microsoft.Azure.Services.AppAuthentication": {
+              "target": "Package",
+              "version": "[1.0.3, 2.0.0)"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Reflection.TypeExtensions": {
+              "target": "Package",
+              "version": "[4.5.1, 4.9.0)"
+            },
+            "System.Runtime.Serialization.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Azure.Amqp": {
+              "target": "Package",
+              "version": "[2.4.2, 3.0.0)"
+            },
+            "Microsoft.Azure.Services.AppAuthentication": {
+              "target": "Package",
+              "version": "[1.0.3, 2.0.0)"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Reflection.TypeExtensions": {
+              "target": "Package",
+              "version": "[4.5.1, 4.9.0)"
+            },
+            "System.Runtime.Serialization.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\abmitra\\source\\repos\\EventHubDemo\\EventHubDemo\\EventHubConsumer\\EventHubConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +300,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs.Processor\\src\\Microsoft.Azure.EventHubs.Processor.csproj": {
+                "projectPath": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs.Processor\\src\\Microsoft.Azure.EventHubs.Processor.csproj"
+              },
+              "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj": {
+                "projectPath": "C:\\Users\\abmitra\\source\\repos\\azure-sdk-for-net\\sdk\\eventhub\\Microsoft.Azure.EventHubs\\src\\Microsoft.Azure.EventHubs.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -43,16 +318,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.Azure.EventHubs": {
-              "target": "Package",
-              "version": "[4.2.0, )"
-            },
-            "Microsoft.Azure.EventHubs.Processor": {
-              "target": "Package",
-              "version": "[4.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.EventHubs" Version="4.2.0" />
-    <PackageReference Include="Microsoft.Azure.EventHubs.Processor" Version="4.2.0" />
+    <ProjectReference Include="..\..\..\azure-sdk-for-net\sdk\eventhub\Microsoft.Azure.EventHubs.Processor\src\Microsoft.Azure.EventHubs.Processor.csproj" />
+    <ProjectReference Include="..\..\..\azure-sdk-for-net\sdk\eventhub\Microsoft.Azure.EventHubs\src\Microsoft.Azure.EventHubs.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubProducer", "EventHubProducer\EventHubProducer.csproj", "{75B7B1DD-9509-4D9D-8608-91B14F182649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubProducer", "EventHubProducer\EventHubProducer.csproj", "{75B7B1DD-9509-4D9D-8608-91B14F182649}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubConsumer", "EventHubConsumer\EventHubConsumer.csproj", "{99EB9716-8706-4C2B-B6BF-D70A062FE5D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubConsumer", "EventHubConsumer\EventHubConsumer.csproj", "{99EB9716-8706-4C2B-B6BF-D70A062FE5D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.EventHubs.Processor", "..\..\azure-sdk-for-net\sdk\eventhub\Microsoft.Azure.EventHubs.Processor\src\Microsoft.Azure.EventHubs.Processor.csproj", "{42734502-A7EB-40D4-B6F5-C4F8C924A66D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.EventHubs", "..\..\azure-sdk-for-net\sdk\eventhub\Microsoft.Azure.EventHubs\src\Microsoft.Azure.EventHubs.csproj", "{B1FC2760-94C5-4A20-A833-357BA014CAB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{99EB9716-8706-4C2B-B6BF-D70A062FE5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99EB9716-8706-4C2B-B6BF-D70A062FE5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99EB9716-8706-4C2B-B6BF-D70A062FE5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42734502-A7EB-40D4-B6F5-C4F8C924A66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42734502-A7EB-40D4-B6F5-C4F8C924A66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42734502-A7EB-40D4-B6F5-C4F8C924A66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42734502-A7EB-40D4-B6F5-C4F8C924A66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FC2760-94C5-4A20-A833-357BA014CAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FC2760-94C5-4A20-A833-357BA014CAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FC2760-94C5-4A20-A833-357BA014CAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FC2760-94C5-4A20-A833-357BA014CAB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
