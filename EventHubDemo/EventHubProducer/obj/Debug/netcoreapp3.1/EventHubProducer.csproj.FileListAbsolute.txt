@@ -1,0 +1,4 @@
+C:\Users\abmitra\source\repos\EventHubDemo\EventHubDemo\EventHubProducer\bin\Debug\netcoreapp3.1\EventHubProducer.exe
+C:\Users\abmitra\source\repos\EventHubDemo\EventHubDemo\EventHubProducer\obj\Debug\netcoreapp3.1\EventHubProducer.csprojAssemblyReference.cache
+C:\Users\abmitra\source\repos\EventHubDemo\EventHubDemo\EventHubProducer\obj\Debug\netcoreapp3.1\EventHubProducer.AssemblyInfoInputs.cache
+C:\Users\abmitra\source\repos\EventHubDemo\EventHubDemo\EventHubProducer\obj\Debug\netcoreapp3.1\EventHubProducer.AssemblyInfo.cs
